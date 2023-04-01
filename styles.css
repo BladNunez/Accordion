@@ -42,4 +42,22 @@ body{
         transition: .5s;
 }
 
+.content-container.active .answer{
+        height: 150px;
+}
+
+.content-container.active .question{
+        font-size: 15px;
+        transition: .5s;
+}
+
+.content-container.active .question::after{
+        content: '-';
+        font-size: 30px;
+        transition: .5s;
+}
+
+
+
+
 
