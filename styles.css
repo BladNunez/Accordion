@@ -17,3 +17,19 @@ body{
         border-radius: 15px;
         padding: 20px;
 }
+
+.question{
+        font-weight: bold;
+        padding: 18px 0px;
+        font-size: 17px;
+        border-bottom: 2px solid black;
+        position:relative;
+}
+
+.question::after{
+        content: '+';
+        position: absolute;
+        right: -3px;
+}
+
+
